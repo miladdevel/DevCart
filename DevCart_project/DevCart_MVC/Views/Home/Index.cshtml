@@ -32,7 +32,7 @@
     </div>
 </section>
 
-@await Html.PartialAsync("Projects", new List<Project>())
+@await Component.InvokeAsync("Projects")
 
 <div class="container">
     <hr>
